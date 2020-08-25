@@ -1,0 +1,20 @@
+.navContainer {
+    padding: 3px 20px;
+    display: flex;
+    align-items: center;
+}
+.logoContainer {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.navItem {
+    flex: 2;
+}
+.logo {
+    width: 50px;
+    object-fit: contain;
+}
+.logoTitle {
+    text-transform: uppercase;
+}
