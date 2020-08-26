@@ -1,0 +1,10 @@
+.starContainer {
+    display: flex;
+    align-items: center;
+}
+.amountText {
+    color: #21956c;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
