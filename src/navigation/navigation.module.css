@@ -18,3 +18,9 @@
 .logoTitle {
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px){
+    .navItem {
+        display: none;
+    }
+}

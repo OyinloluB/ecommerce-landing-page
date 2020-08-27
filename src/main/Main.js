@@ -14,7 +14,7 @@ const Main = () => {
           <img
             src={Product}
             alt="product"
-            style={{ objectFit: "contain", width: "100%", objectFit: "cover" }}
+            style={{ objectFit: "contain", width: "100%" }}
           />
         </div>
         <div className={Styles.thirdRow}>
@@ -23,9 +23,6 @@ const Main = () => {
             alt="product"
             className={Styles.image}
             style={{
-              borderRadius: "100%",
-              height: "100px",
-              width: "100px",
               backgroundColor: "#f1c171",
             }}
           />
@@ -34,9 +31,6 @@ const Main = () => {
             alt="product"
             className={Styles.image}
             style={{
-              borderRadius: "100%",
-              height: "100px",
-              width: "100px",
               backgroundColor: "#d46374",
             }}
           />
@@ -45,9 +39,6 @@ const Main = () => {
             alt="product"
             className={Styles.image}
             style={{
-              borderRadius: "100%",
-              height: "100px",
-              width: "100px",
               backgroundColor: "#ea8261",
             }}
           />
